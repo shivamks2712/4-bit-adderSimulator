@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+html{
+    overflow: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -webkit-touch-callout : none;
+    -moz-user-select: none;
+    -o-user-select: none;
+     user-select: none;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.inputs{
+    display: flex;
+}
+img{
+    margin-right: 150px;
+    max-height: 250px;
+}
+.mainBox{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.canvas{
+    width: 250px;
+    color: white;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input{
+    display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tableChart h3{
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid black;
 }
