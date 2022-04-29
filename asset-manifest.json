@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/4-bit-adderSimulator/static/css/main.1d8de0ca.css",
+    "main.js": "/4-bit-adderSimulator/static/js/main.fbc66203.js",
+    "static/media/image-11.webp": "/4-bit-adderSimulator/static/media/image-11.7debbbed33163674c16a.webp",
+    "index.html": "/4-bit-adderSimulator/index.html",
+    "main.1d8de0ca.css.map": "/4-bit-adderSimulator/static/css/main.1d8de0ca.css.map",
+    "main.fbc66203.js.map": "/4-bit-adderSimulator/static/js/main.fbc66203.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d8de0ca.css",
+    "static/js/main.fbc66203.js"
+  ]
+}
